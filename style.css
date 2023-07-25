@@ -1,0 +1,142 @@
+body {
+  background: aliceblue;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 100;
+  background: url('bg.jpg');
+  background-size: cover;
+  color: #dedede;
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  border: 2px solid rgb(30 97 124 / 28%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+  margin: 50px 350px;
+  min-height: 500px;
+  /* height: 80vh; */
+  /* background: rgba(244,200,140,0.6) */
+  background: rgb(0 64 119 / 60%);
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid rgb(209, 172, 108);
+}
+
+.navigation ul li {
+  transform: translateY(-5px);
+  padding: 5px 10px;
+  background: rgba(161, 93, 4, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.new-contact-modal {
+  transition: 1s;
+  transform: translateY(-1000px);
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  top: 50px;
+  margin: 0px 40%;
+  padding: 45px;
+  background: rgba(80, 150, 120, 1);
+}
+
+.new-contact-modal.show {
+  transition: 1s;
+  transform: translateY(0px);
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  top: 50px;
+  margin: 0px 40%;
+  padding: 45px;
+  background: rgba(80, 150, 120, 0.8);
+  border-radius: 15px;
+}
+
+.main-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table {
+  width: 100%;
+}
+
+.table tbody {
+  /* text-align: center; */
+  border: 1px solid black;
+}
+
+.table td {
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px;
+  background: #192a325e;
+  box-shadow: 2px 6px 6px rgba(0,0,0, 0.2);
+}
+
+.hide {
+  display: none;
+}
+
+#text {
+  text-align: center;
+}
+
+#init {
+  font-size: 22px;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 10px;
+  margin: 0 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: burlywood;
+  font-family: sans-serif;
+}
+
+#add-new-contact {
+  background: rgb(37 107 153 / 70%);
+  border: 1px solid rgb(209, 172, 108);
+  padding: 8px 18px;
+}
+
+#add-new-contact:hover{
+  background: rgb(0 39 64 / 70%);
+  color: #fff;
+}
+
+input#search {
+  border-radius: 10px;
+  background:rgb(37 107 153 / 70%);
+  text-align: center;
+}
+
+input#search::placeholder {
+  color: #dedede;
+}
+
+input#search:active,
+input#search:focus {
+    color: #dedede;
+}
+
+button {
+  background: rgb(37 107 153 / 70%);
+  color: #dedede;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background: rgb(0 39 64 / 70%);
+}
