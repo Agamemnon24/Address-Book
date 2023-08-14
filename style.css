@@ -1,5 +1,8 @@
 body {
-  background: #ae9cff;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   margin: 0;
   font-size: 18px;
   font-weight: 100;
@@ -22,7 +25,7 @@ body {
   list-style-type: none;
   text-align: center;
   padding: 40px;
-  border-bottom: 1px solid #d0c5ff;
+  border-bottom: 1px solid #8e8e8e;
   background: #b5b5b55e;
   border-radius: 10px 10px 0px 0px;
 }
@@ -45,7 +48,7 @@ body {
 }
 
 .searchBox input {
-  background-color: #ae9cff;
+  background-color: #bababa;
   border: none;
   outline: none;
   width: 0;
@@ -64,7 +67,7 @@ body {
 }
 
 .searchBox i {
-  background-color: #ae9cff;
+  background-color: #bababa;
   width: 22px;
   height: 22px;
   padding: 9px 10px;
@@ -126,7 +129,7 @@ body {
   /* width: 70%; */
   border: none;
   outline: none;
-  border-bottom: 3px solid #ae9cff;
+  border-bottom: 3px solid #bababa;
   font-size: 16px;
   background: #e0e0e0;
 }
@@ -134,7 +137,7 @@ body {
 .new-contact-modal form textarea {
   border: none;
   outline: none;
-  border-bottom: 3px solid #ae9cff;
+  border-bottom: 3px solid #bababa;
   font-size: 16px;
   background: #e0e0e0;
 }
@@ -173,12 +176,12 @@ body {
 
 #init {
   font-size: 22px;
-  border: 1px solid #ae9cff;
+  border: 1px solid #bababa;
   border-radius: 15px;
   padding: 10px;
   margin: 0 5px;
   background: rgba(0, 0, 0, 0.5);
-  color: #ae9cff;
+  color: #bababa;
   font-family: sans-serif;
 }
 
@@ -186,7 +189,7 @@ input#search {
   padding: 5px;
   border: none;
   outline: none;
-  border-bottom: 3px solid #ae9cff;
+  border-bottom: 3px solid #bababa;
   font-size: 16px;
 }
 
@@ -204,17 +207,17 @@ input#search:focus {
   padding: 12px 35px;
   top: 86px;
   left: 380px;
-  background-color: #ae9cff;
+  background-color: #bababa;
   border: none;
   outline: none;
-  color: #fff;
+  /* color: #fff; */
   border-radius: 8px;
   transition: 0.5s;
   border: 1px solid #c9c9c9;
 }
 
 #add-new-contact:hover {
-  background-color: #d0c5ff;
+  background-color: #8e8e8e;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -222,17 +225,17 @@ input#search:focus {
 #submit {
   text-align: center;
   padding: 10px 35px;
-  background-color: #ae9cff;
+  background-color: #bababa;
   border: none;
   outline: none;
-  color: #fff;
+  /* color: #fff; */
   border-radius: 8px;
   transition: 0.5s;
   border: 1px solid #c9c9c9;
 }
 
 #submit:hover {
-  background-color: #d0c5ff;
+  background-color: #8e8e8e;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -248,16 +251,16 @@ input#search:focus {
 }
 
 .img i:hover {
-  background: #d0c5ff;
+  background: #8e8e8e;
 }
 
 .btn-del {
   text-align: center;
-  background-color: #ae9cff;
+  background-color: #bababa;
   padding: 6px 20px;
   border: none;
   outline: none;
-  color: #fff;
+  /* color: #fff; */
   border-radius: 8px;
   transition: 0.5s;
   border: 1px solid #c9c9c9;
@@ -265,7 +268,7 @@ input#search:focus {
 }
 
 .btn-del:hover {
-  background-color: #d0c5ff;
+  background-color: #8e8e8e;
   color: #fff;
   border: 1px solid #fff;
 }
