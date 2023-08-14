@@ -252,6 +252,7 @@ input#search:focus {
 
 .img i:hover {
   background: #8e8e8e;
+  border-radius: 50%;
 }
 
 .btn-del {
